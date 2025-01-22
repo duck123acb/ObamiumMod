@@ -1,6 +1,7 @@
 package com.duck123acb.obamiummod;
 
 import com.duck123acb.obamiummod.block.ModBlocks;
+import com.duck123acb.obamiummod.item.ModCreativeModeTabs;
 import com.duck123acb.obamiummod.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -32,6 +33,8 @@ public class ObamiumMod {
         modEventBus.addListener(this::commonSetup);
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
+
+        ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
