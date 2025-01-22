@@ -1,5 +1,6 @@
 package com.duck123acb.obamiummod;
 
+import com.duck123acb.obamiummod.block.ModBlocks;
 import com.duck123acb.obamiummod.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -33,6 +34,7 @@ public class ObamiumMod {
         MinecraftForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -47,8 +49,10 @@ public class ObamiumMod {
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.OBAMIUM);
             event.accept(ModItems.OBAMIUM_GEM);
+        }
+        if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+            event.accept(ModBlocks.OBAMIUM_BLOCK);
         }
     }
 
