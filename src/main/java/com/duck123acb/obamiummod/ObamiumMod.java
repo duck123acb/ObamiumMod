@@ -57,6 +57,9 @@ public class ObamiumMod {
         if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
             event.accept(ModBlocks.OBAMIUM_BLOCK);
         }
+        if (event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
+            event.accept(ModBlocks.SUPER_OBAMIUM);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

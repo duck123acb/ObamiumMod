@@ -19,6 +19,7 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.OBAMIUM_GEM.get());
                         output.accept(ModBlocks.OBAMIUM_BLOCK.get());
+                        output.accept(ModBlocks.SUPER_OBAMIUM.get());
                     }).build());
 
     public static void register(IEventBus eventBus) {

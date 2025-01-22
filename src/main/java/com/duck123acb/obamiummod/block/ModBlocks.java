@@ -1,6 +1,7 @@
 package com.duck123acb.obamiummod.block;
 
 import com.duck123acb.obamiummod.ObamiumMod;
+import com.duck123acb.obamiummod.block.custom.SuperObamium;
 import com.duck123acb.obamiummod.item.ModItems;
 import net.minecraft.client.resources.model.Material;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -26,6 +27,14 @@ public class ModBlocks {
                             .strength(4f)
                             .requiresCorrectToolForDrops()
                             .sound(SoundType.ANVIL)
+            ));
+
+    public static final RegistryObject<Block> SUPER_OBAMIUM =
+            registerBlock("super_obamium", () -> new SuperObamium(
+                    BlockBehaviour.Properties.of()
+                            .strength(4f)
+                            .requiresCorrectToolForDrops()
+                            .sound(SoundType.GLASS)
             ));
 
 

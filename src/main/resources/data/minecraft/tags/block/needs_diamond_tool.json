@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "obamiummod:obamium_block"
+    "obamiummod:obamium_block",
+    "obamiummod:super_obamium"
   ]
 }
