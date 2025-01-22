@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "obamiummod:obamium_gem"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "AAA",
+    "AAA"
+  ],
+  "result": {
+    "count": 1,
+    "id": "obamiummod:super_obamium"
+  }
+}
