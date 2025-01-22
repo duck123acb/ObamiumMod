@@ -48,6 +48,7 @@ public class ObamiumMod {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.OBAMIUM);
+            event.accept(ModItems.OBAMIUM_GEM);
         }
     }
 

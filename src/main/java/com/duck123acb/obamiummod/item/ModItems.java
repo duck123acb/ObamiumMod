@@ -11,6 +11,7 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, ObamiumMod.MOD_ID); // register the custom items
 
     public static final RegistryObject<Item> OBAMIUM = ITEMS.register("obamium", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> OBAMIUM_GEM = ITEMS.register("obamium_gem", () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
