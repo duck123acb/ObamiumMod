@@ -3,9 +3,11 @@ package com.duck123acb.obamiummod.block;
 import com.duck123acb.obamiummod.ObamiumMod;
 import com.duck123acb.obamiummod.item.ModItems;
 import net.minecraft.client.resources.model.Material;
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -19,13 +21,11 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, ObamiumMod.MOD_ID);
 
     public static final RegistryObject<Block> OBAMIUM_BLOCK =
-            registerBlock("obamium_block", () -> new Block(
+            registerBlock("obamium_block", () -> new DropExperienceBlock(UniformInt.of(2, 4),
                     BlockBehaviour.Properties.of()
                             .strength(4f)
                             .requiresCorrectToolForDrops()
                             .sound(SoundType.ANVIL)
-                            .explosionResistance(10f)
-                            .speedFactor(30f)
             ));
 
 
