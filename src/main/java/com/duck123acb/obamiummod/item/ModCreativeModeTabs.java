@@ -18,6 +18,7 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.obamiummod.obamium_items"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.OBAMIUM_GEM.get());
+                        output.accept(ModItems.BIDENITE_GEM.get());
                         output.accept(ModBlocks.OBAMIUM_ORE.get());
                         output.accept(ModBlocks.SUPER_OBAMIUM.get());
                         output.accept(ModBlocks.BIDENITE_ORE.get());

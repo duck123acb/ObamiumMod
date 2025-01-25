@@ -53,11 +53,14 @@ public class ObamiumMod {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.OBAMIUM_GEM);
+            event.accept(ModItems.BIDENITE_GEM);
         }
+
         if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
             event.accept(ModBlocks.OBAMIUM_ORE);
             event.accept(ModBlocks.BIDENITE_ORE);
         }
+
         if (event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
             event.accept(ModBlocks.SUPER_OBAMIUM);
         }
