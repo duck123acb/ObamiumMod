@@ -3,7 +3,6 @@ package com.duck123acb.obamiummod.block;
 import com.duck123acb.obamiummod.ObamiumMod;
 import com.duck123acb.obamiummod.block.custom.SuperObamium;
 import com.duck123acb.obamiummod.item.ModItems;
-import net.minecraft.client.resources.model.Material;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -21,8 +20,8 @@ import java.util.function.Supplier;
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, ObamiumMod.MOD_ID);
 
-    public static final RegistryObject<Block> OBAMIUM_BLOCK =
-            registerBlock("obamium_block", () -> new DropExperienceBlock(UniformInt.of(2, 4),
+    public static final RegistryObject<Block> OBAMIUM_ORE =
+            registerBlock("obamium_ore", () -> new DropExperienceBlock(UniformInt.of(2, 4),
                     BlockBehaviour.Properties.of()
                             .strength(4f)
                             .requiresCorrectToolForDrops()

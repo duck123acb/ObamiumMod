@@ -55,7 +55,7 @@ public class ObamiumMod {
             event.accept(ModItems.OBAMIUM_GEM);
         }
         if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
-            event.accept(ModBlocks.OBAMIUM_BLOCK);
+            event.accept(ModBlocks.OBAMIUM_ORE);
         }
         if (event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
             event.accept(ModBlocks.SUPER_OBAMIUM);
