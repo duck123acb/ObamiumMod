@@ -36,6 +36,13 @@ public class ModBlocks {
                             .sound(SoundType.GLASS)
             ));
 
+    public static final RegistryObject<Block> BIDENITE_ORE =
+            registerBlock("bidenite_ore", () -> new DropExperienceBlock(UniformInt.of(2, 4),
+                    BlockBehaviour.Properties.of()
+                            .strength(4f)
+                            .requiresCorrectToolForDrops()
+                            .sound(SoundType.ANVIL)
+            ));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

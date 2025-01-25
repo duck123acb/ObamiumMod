@@ -20,6 +20,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.OBAMIUM_GEM.get());
                         output.accept(ModBlocks.OBAMIUM_ORE.get());
                         output.accept(ModBlocks.SUPER_OBAMIUM.get());
+                        output.accept(ModBlocks.BIDENITE_ORE.get());
                     }).build());
 
     public static void register(IEventBus eventBus) {
