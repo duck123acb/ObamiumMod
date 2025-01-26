@@ -4,16 +4,19 @@
   "category": "misc",
   "key": {
     "A": {
-      "item": "obamiummod:obamium_gem"
+      "item": "obamiummod:bidenite_gem"
+    },
+    "B": {
+      "item": "minecraft:nether_star"
     }
   },
   "pattern": [
-    "AAA",
-    "AAA",
-    "AAA"
+    " A ",
+    "ABA",
+    " A "
   ],
   "result": {
     "count": 1,
-    "id": "obamiummod:super_obamium"
+    "id": "obamiummod:biden_blast_item"
   }
 }

@@ -64,6 +64,10 @@ public class ObamiumMod {
         if (event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
             event.accept(ModBlocks.SUPER_OBAMIUM);
         }
+
+        if (event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+            event.accept(ModItems.BIDEN_BLAST_ITEM);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
