@@ -1,5 +1,7 @@
 package com.duck123acb.obamiummod.item.custom;
 
+import com.duck123acb.obamiummod.ObamiumMod;
+import com.duck123acb.obamiummod.entity.custom.BidenBlastEntity;
 import net.minecraft.core.Direction;
 import net.minecraft.core.Position;
 import net.minecraft.sounds.SoundEvents;
@@ -35,10 +37,10 @@ public class BidenBlastItem extends Item implements ProjectileItem { // throws a
                 0.4F / (pLevel.getRandom().nextFloat() * 0.4F + 0.8F)
         );
         if (!pLevel.isClientSide) {
-            Snowball snowball = new Snowball(pLevel, pPlayer);
-            snowball.setItem(itemstack);
-            snowball.shootFromRotation(pPlayer, pPlayer.getXRot(), pPlayer.getYRot(), 0.0F, 1.5F, 1.0F);
-            pLevel.addFreshEntity(snowball);
+            BidenBlastEntity bidenBlast = new BidenBlastEntity(pLevel, pPlayer);
+            bidenBlast.setItem(itemstack);
+            bidenBlast.shootFromRotation(pPlayer, pPlayer.getXRot(), pPlayer.getYRot(), 0.0F, 1.5F, 1.0F);
+            pLevel.addFreshEntity(bidenBlast);
         }
 
         pPlayer.awardStat(Stats.ITEM_USED.get(this));
@@ -48,8 +50,8 @@ public class BidenBlastItem extends Item implements ProjectileItem { // throws a
 
     @Override
     public @NotNull Projectile asProjectile(Level pLevel, Position pPos, ItemStack pStack, Direction pDirection) {
-        Snowball snowball = new Snowball(pLevel, pPos.x(), pPos.y(), pPos.z());
-        snowball.setItem(pStack);
-        return snowball;
+        BidenBlastEntity bidenBlast = new BidenBlastEntity(pLevel, pPos.x(), pPos.y(), pPos.z());
+        bidenBlast.setItem(pStack);
+        return bidenBlast;
     }
 }
