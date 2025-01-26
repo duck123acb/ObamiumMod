@@ -1,6 +1,8 @@
 # Obamium Mod
 
-A 1.21 mod that adds Obamium to Minecraft. Built from [Modding by Kaupenjoe](https://www.youtube.com/watch?v=eFofdJ1BYYs&list=PLKGarocXCE1GspJBXQEGuhazihZCSSLmK)
+A 1.21 mod that adds Obamium to Minecraft. Built from [Modding by Kaupenjoe](https://www.youtube.com/watch?v=eFofdJ1BYYs&list=PLKGarocXCE1GspJBXQEGuhazihZCSSLmK)  
+[Youtube Showcase](https://youtu.be/gnL7EsDX4pU)  
+[Modrinth Page](https://modrinth.com/mod/obamium-mod)
 
 # Items
 ## Obamium Ore
