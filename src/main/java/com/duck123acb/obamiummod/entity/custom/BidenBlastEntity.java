@@ -7,7 +7,6 @@ import net.minecraft.world.phys.EntityHitResult;
 import net.minecraft.world.phys.HitResult;
 
 public class BidenBlastEntity extends Snowball {
-
     public BidenBlastEntity(Level pLevel, double pX, double pY, double pZ) {
         super(pLevel, pX, pY, pZ);
     }
