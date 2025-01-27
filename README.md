@@ -7,7 +7,8 @@ A 1.21 mod that adds Obamium and Bidenite to Minecraft. Built from [Modding by K
 # Warnings
 <img width="400" alt="screenshoot 2025-01-27 at 9 54 04 AM" src="https://github.com/user-attachments/assets/10beac24-a2fd-4d53-9fe0-6142c8dc2015" />
 <img width="400" alt="screenshoot 2025-01-27 at 10 13 01 AM" src="https://github.com/user-attachments/assets/270e419a-8fbc-4238-a0b8-31fe1f6bc1b3" />  
-When creating and loading worlds with this Mod, Minecraft will give you either of these warnings. So far with my testings they haven't broken anything, but if they do then setup a bug report [here](https://github.com/duck123acb/ObamiumMod/issues)  
+
+When creating and loading worlds with this Mod, Minecraft will give you either of these warnings. So far with my testings they haven't broken anything, but if they do then setup a bug report [here](https://github.com/duck123acb/ObamiumMod/issues).  
 If you want to be extra safe, then download the 1.0.1 version instead of the newest. However, this will make it so that the ores don't spawn naturally during world generation, so you can't really play this in survival with no commands.
 
 # Items
