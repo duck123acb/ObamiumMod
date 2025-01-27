@@ -1,16 +1,24 @@
 # Obamium Mod
 
-A 1.21 mod that adds Obamium to Minecraft. Built from [Modding by Kaupenjoe](https://www.youtube.com/watch?v=eFofdJ1BYYs&list=PLKGarocXCE1GspJBXQEGuhazihZCSSLmK)  
+A 1.21 mod that adds Obamium and Bidenite to Minecraft. Built from [Modding by Kaupenjoe](https://www.youtube.com/watch?v=eFofdJ1BYYs&list=PLKGarocXCE1GspJBXQEGuhazihZCSSLmK)  
 [Youtube Showcase](https://youtu.be/gnL7EsDX4pU)  
 [Modrinth Page](https://modrinth.com/mod/obamium-mod)
+
+# Warnings
+<img width="400" alt="screenshoot 2025-01-27 at 9 54 04 AM" src="https://github.com/user-attachments/assets/10beac24-a2fd-4d53-9fe0-6142c8dc2015" />
+<img width="400" alt="screenshoot 2025-01-27 at 10 13 01 AM" src="https://github.com/user-attachments/assets/270e419a-8fbc-4238-a0b8-31fe1f6bc1b3" />  
+When creating and loading worlds with this Mod, Minecraft will give you either of these warnings. So far with my testings they haven't broken anything, but if they do then setup a bug report [here](https://github.com/duck123acb/ObamiumMod/issues)  
+If you want to be extra safe, then download the 1.0.1 version instead of the newest. However, this will make it so that the ores don't spawn naturally during world generation, so you can't really play this in survival with no commands.
 
 # Items
 ## Obamium Ore
 - drops XP
 - drops an Obamium Gem
 - requires a diamond pickaxe to mine
+- spawns in regular stone levels
 
-<img width="400" alt="A photo of the obamium ore" src="https://github.com/user-attachments/assets/b7da6e6a-969e-4217-8764-e080127eb693" />  
+<img width="400" alt="A photo of the obamium ore" src="https://github.com/user-attachments/assets/b7da6e6a-969e-4217-8764-e080127eb693" />
+<img width="400" alt="screenshoot 2025-01-27 at 10 08 59 AM" src="https://github.com/user-attachments/assets/638e0d04-bfda-4ce1-8d28-fdddb5f2070f" />
 
 ![place_obamium](https://github.com/user-attachments/assets/e92dcb60-ab30-44dd-9dc3-defca98881d2)
 ![break_obamium](https://github.com/user-attachments/assets/c2820a34-3a55-4d3d-ae9f-6c00edaa7adc)
@@ -19,8 +27,10 @@ A 1.21 mod that adds Obamium to Minecraft. Built from [Modding by Kaupenjoe](htt
 - drops XP
 - drops a Bidenite Gem
 - requires a diamond pickaxe to mine
+- spawns in deepslate levels
 
 <img width="400" alt="A photo of the bidenite ore" src="https://github.com/user-attachments/assets/b2212649-f4d5-493f-aeb0-0210bffeaba5" />  
+<img width="838" alt="screenshoot 2025-01-27 at 10 09 24 AM" src="https://github.com/user-attachments/assets/952590cd-9f17-44ea-b11a-4a7ec5871ea7" />
 
 ![bidenite_mine](https://github.com/user-attachments/assets/c58f3b7a-3148-4ebb-a05a-52f707c3d703)
 
