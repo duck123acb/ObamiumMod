@@ -13,6 +13,7 @@ public class ModItems {
 
     public static final RegistryObject<Item> OBAMIUM_GEM = ITEMS.register("obamium_gem", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> BIDENITE_GEM = ITEMS.register("bidenite_gem", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> BUSHIUM_GEM = ITEMS.register("bushium_gem", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> BIDEN_BLAST_ITEM = ITEMS.register("biden_blast_item", () -> new BidenBlastItem(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {

@@ -55,11 +55,13 @@ public class ObamiumMod {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.OBAMIUM_GEM);
             event.accept(ModItems.BIDENITE_GEM);
+            event.accept(ModItems.BUSHIUM_GEM);
         }
 
         if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
             event.accept(ModBlocks.OBAMIUM_ORE);
             event.accept(ModBlocks.BIDENITE_ORE);
+            event.accept(ModBlocks.BUSHIUM_ORE);
         }
 
         if (event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {

@@ -19,8 +19,10 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.OBAMIUM_GEM.get());
                         output.accept(ModItems.BIDENITE_GEM.get());
+                        output.accept(ModItems.BUSHIUM_GEM.get());
                         output.accept(ModBlocks.OBAMIUM_ORE.get());
                         output.accept(ModBlocks.BIDENITE_ORE.get());
+                        output.accept(ModBlocks.BUSHIUM_ORE.get());
                         output.accept(ModBlocks.SUPER_OBAMIUM.get());
                         output.accept(ModItems.BIDEN_BLAST_ITEM.get());
                     }).build());

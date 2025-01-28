@@ -44,6 +44,14 @@ public class ModBlocks {
                             .sound(SoundType.ANVIL)
             ));
 
+    public static final RegistryObject<Block> BUSHIUM_ORE =
+            registerBlock("bushium_ore", () -> new DropExperienceBlock(UniformInt.of(2, 4),
+                    BlockBehaviour.Properties.of()
+                            .strength(4f)
+                            .requiresCorrectToolForDrops()
+                            .sound(SoundType.ANVIL)
+            ));
+
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);
