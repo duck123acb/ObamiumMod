@@ -21,7 +21,7 @@ public class BushiumPrime extends Item {
 
         ItemStack itemstack = pPlayer.getItemInHand(pHand);
         applyEffects(pPlayer, duration * 20);
-        itemstack.shrink(1);
+        itemstack.consume(1, pPlayer);
 
         return InteractionResultHolder.sidedSuccess(itemstack, pLevel.isClientSide());
      }
@@ -31,6 +31,7 @@ public class BushiumPrime extends Item {
          player.addEffect(new MobEffectInstance(MobEffects.JUMP, durationTicks, 3));
          player.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, durationTicks, 5));
          player.addEffect(new MobEffectInstance(MobEffects.REGENERATION, durationTicks, 1));
+         player.addEffect(new MobEffectInstance(MobEffects.SATURATION, durationTicks, 2));
          player.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, durationTicks, 3));
      }
 }
