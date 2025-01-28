@@ -2,6 +2,7 @@ package com.duck123acb.obamiummod.item;
 
 import com.duck123acb.obamiummod.ObamiumMod;
 import com.duck123acb.obamiummod.item.custom.BidenBlastItem;
+import com.duck123acb.obamiummod.item.custom.BushiumPrime;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -14,8 +15,8 @@ public class ModItems {
     public static final RegistryObject<Item> OBAMIUM_GEM = ITEMS.register("obamium_gem", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> BIDENITE_GEM = ITEMS.register("bidenite_gem", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> BUSHIUM_GEM = ITEMS.register("bushium_gem", () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> BUSHIUM_PRIME = ITEMS.register("bushium_prime", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> BIDEN_BLAST_ITEM = ITEMS.register("biden_blast_item", () -> new BidenBlastItem(new Item.Properties()));
+    public static final RegistryObject<Item> BUSHIUM_PRIME = ITEMS.register("bushium_prime", () -> new BushiumPrime(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
