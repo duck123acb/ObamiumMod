@@ -31,7 +31,7 @@ If you want to be extra safe, then download the 1.0.1 version instead of the new
 - spawns in deepslate levels
 
 <img width="400" alt="A photo of the bidenite ore" src="https://github.com/user-attachments/assets/b2212649-f4d5-493f-aeb0-0210bffeaba5" />  
-<img width="838" alt="screenshoot 2025-01-27 at 10 09 24 AM" src="https://github.com/user-attachments/assets/952590cd-9f17-44ea-b11a-4a7ec5871ea7" />
+<img width="400" alt="screenshoot 2025-01-27 at 10 09 24 AM" src="https://github.com/user-attachments/assets/952590cd-9f17-44ea-b11a-4a7ec5871ea7" />
 
 ![bidenite_mine](https://github.com/user-attachments/assets/c58f3b7a-3148-4ebb-a05a-52f707c3d703)
 
