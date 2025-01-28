@@ -7,13 +7,16 @@
       "item": "obamiummod:bidenite_gem"
     },
     "B": {
+      "item": "minecraft:firework_star"
+    },
+    "C": {
       "item": "minecraft:nether_star"
     }
   },
   "pattern": [
-    " A ",
-    "ABA",
-    " A "
+    "BAB",
+    "ACA",
+    "BAB"
   ],
   "result": {
     "count": 1,

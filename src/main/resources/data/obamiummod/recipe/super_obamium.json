@@ -5,11 +5,14 @@
   "key": {
     "A": {
       "item": "obamiummod:obamium_gem"
+    },
+    "B": {
+      "item": "minecraft:nether_star"
     }
   },
   "pattern": [
     "AAA",
-    "AAA",
+    "ABA",
     "AAA"
   ],
   "result": {

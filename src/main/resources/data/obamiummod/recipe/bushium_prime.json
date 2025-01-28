@@ -1,0 +1,22 @@
+{
+  "group": "obamiummod",
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "A": {
+        "item": "obamiummod:bushium_gem"
+      },
+      "B": {
+        "item": "minecraft:nether_star"
+      }
+    },
+    "pattern": [
+      " A ",
+      "ABA",
+      " A "
+    ],
+    "result": {
+      "count": 1,
+      "id": "obamiummod:bushium_prime"
+    }
+}
