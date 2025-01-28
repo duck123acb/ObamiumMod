@@ -70,6 +70,7 @@ public class ObamiumMod {
 
         if (event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
             event.accept(ModItems.BIDEN_BLAST_ITEM);
+            event.accept(ModItems.BUSHIUM_PRIME);
         }
     }
 

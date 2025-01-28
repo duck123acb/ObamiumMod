@@ -25,6 +25,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.BUSHIUM_ORE.get());
                         output.accept(ModBlocks.SUPER_OBAMIUM.get());
                         output.accept(ModItems.BIDEN_BLAST_ITEM.get());
+                        output.accept(ModItems.BUSHIUM_PRIME.get());
                     }).build());
 
     public static void register(IEventBus eventBus) {
